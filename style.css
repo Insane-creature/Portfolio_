@@ -356,13 +356,15 @@ article {
     margin-bottom: 2rem;
 }
 
-.project-title{
-    color: black;
-    margin: 1rem;
+.project-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.project-btn{
-    background-color: white;
+.color-container{
+    border-radius: rgb(163, 163, 163);
+    background: rgb(250,250,250);
 }
 
 .project-img{
@@ -371,14 +373,13 @@ article {
     height: 90%;
 }
 
-.color-container{
-    border-radius: rgb(163, 163, 163);
-    background: rgb(250,250,250);
+.project-title{
+    color: black;
+    margin: 1rem;
 }
-.project-details-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+
+.project-btn{
+    background-color: white;
 }
 
 /* CONTACT INFO */
